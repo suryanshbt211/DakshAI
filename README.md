@@ -1,6 +1,6 @@
 # DakshAI
 
-#  DakshAI: Multi-Agentic Policy-Guided AI Educational Assistant
+#   Multi-Agentic Policy-Guided AI Educational Assistant
 
 **DakshAI** is a multi-agentic, AI-powered educational assistant that automates the generation of syllabi, assessments, and peer-reviewed student evaluations—strictly aligned with institutional, governmental, and quality assurance policies. It streamlines curriculum planning, question design, and grading using intelligent agents coordinated through a LangGraph-powered orchestration pipeline.
 
