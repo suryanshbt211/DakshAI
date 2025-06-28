@@ -1,6 +1,6 @@
 # DakshAI
 
-# 📘 DakshAI: Multi-Agentic Policy-Guided AI Educational Assistant
+#  DakshAI: Multi-Agentic Policy-Guided AI Educational Assistant
 
 **DakshAI** is a multi-agentic, AI-powered educational assistant that automates the generation of syllabi, assessments, and peer-reviewed student evaluations—strictly aligned with institutional, governmental, and quality assurance policies. It streamlines curriculum planning, question design, and grading using intelligent agents coordinated through a LangGraph-powered orchestration pipeline.
 
@@ -8,30 +8,30 @@
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- ✅ **Policy-Driven Automation**: Extracts institutional guidelines from PDFs or text and converts them into structured academic rules.
-- 📅 **Syllabus Generation**: Produces weekly syllabi aligned with learning goals, policy rules, and learning analytics principles.
-- ❓ **Assessment Authoring**: Generates Bloom’s taxonomy-aligned questions tailored to course content and compliance guidelines.
-- 🧠 **Multi-Agent Peer Evaluation**: Simulates 6 AI peer reviewers, each focusing on different rubric dimensions (e.g., grammar, reasoning, creativity).
-- 📊 **Rubric-Based Grading**: Uses a 20-point scoring framework customizable to institutional standards.
-- 🌐 **Interactive Streamlit UI**: Full user interface for uploading policies, customizing content, and triggering peer evaluation.
-- 🔁 **LangGraph Orchestration**: Ensures agent workflows are executed in a controlled, deterministic, and transparent pipeline.
+-  **Policy-Driven Automation**: Extracts institutional guidelines from PDFs or text and converts them into structured academic rules.
+-  **Syllabus Generation**: Produces weekly syllabi aligned with learning goals, policy rules, and learning analytics principles.
+-  **Assessment Authoring**: Generates Bloom’s taxonomy-aligned questions tailored to course content and compliance guidelines.
+-  **Multi-Agent Peer Evaluation**: Simulates 6 AI peer reviewers, each focusing on different rubric dimensions (e.g., grammar, reasoning, creativity).
+-  **Rubric-Based Grading**: Uses a 20-point scoring framework customizable to institutional standards.
+-  **Interactive Streamlit UI**: Full user interface for uploading policies, customizing content, and triggering peer evaluation.
+-  **LangGraph Orchestration**: Ensures agent workflows are executed in a controlled, deterministic, and transparent pipeline.
 
 ---
 
-## 🧠 Multi-Agent Architecture
+##  Multi-Agent Architecture
 
 DakshAI uses **9 autonomous agents**, with tasks distributed as follows:
 
-### 🎓 Academic Design Agents
+###  Academic Design Agents
 | Agent | Function |
 |-------|----------|
 | 1. Policy Parser Agent | Extracts rules for design, assessment, conduct, and analytics from institutional policies |
 | 2. Syllabus Generator Agent | Designs a weekly syllabus table aligned with policy constraints and learning goals |
 | 3. Question Generator Agent | Produces assessments aligned with Bloom’s Taxonomy, outcomes, and assessment policy |
 
-### 👥 Peer Reviewer Agents
+###  Peer Reviewer Agents
 | Agent | Specialization |
 |--------|----------------|
 | 4. Peer Reviewer #1 | Conceptual Accuracy and Depth |
@@ -45,7 +45,7 @@ Each reviewer uses a shared rubric but evaluates from a different lens to ensure
 
 ---
 
-## 📂 Folder & Code Structure
+##  Folder & Code Structure
 
 ```bash
 .
