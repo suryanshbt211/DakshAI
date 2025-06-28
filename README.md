@@ -4,7 +4,7 @@
 
 **DakshAI** is a multi-agentic, AI-powered educational assistant that automates the generation of syllabi, assessments, and peer-reviewed student evaluations—strictly aligned with institutional, governmental, and quality assurance policies. It streamlines curriculum planning, question design, and grading using intelligent agents coordinated through a LangGraph-powered orchestration pipeline.
 
-> 🎯 Designed for educational institutions, policy-makers, and accreditation bodies seeking scalable, policy-aligned, and explainable assessment systems.
+
 
 ---
 
