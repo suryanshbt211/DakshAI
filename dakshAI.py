@@ -7,32 +7,14 @@ from langchain_core.runnables import RunnableLambda
 import re
 
 # --- Setup API Key for Gemini ---
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCf4zhRvpmANps5SVaIPOZ3QoZnHA5SNlw"
+os.environ["GOOGLE_API_KEY"] = "enter_API"
 
 # --- LLM ---
-gemini_llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-exp")
+gemini_llm = ChatGoogleGenerativeAI(model="enter_model_name")
 
 # --- Hardcoded Rubric  ---
 HARDCODED_RUBRIC = """
-Score Criteria (out of 20):
-- Application / Presentation of Concept: 2 marks
-- Detailing and Understanding: 1 mark
-- Skills Exploration: 1 mark
-- Basics of Design Principles: 1 mark
-- Research and Comprehension: 2 marks
-- Meta-cognition and Critical Thinking: 1.5 marks
-- Perception, Observation, and Sensitivity: 1.5 marks
-- Conceptual Clarity and Comprehension (Theory): 2 marks
-- Reflective Thinking: 1.5 marks
-- Communication: 0.75 marks
-- Conceptual Clarity: 2 marks
-- Exploration and Improvisation: 1.5 marks
-- Problem-solving and Lateral Thinking: 1.5 marks
-- Originality and Visualization: 1 mark
-
-Guidelines:
-- Provide justification for each score.
-- Consider understanding, clarity, exploration, critical thinking, originality.
+enter the marking rubrics as per the university / institutional policies
 """
 
 # --- State Definition ---
