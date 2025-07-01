@@ -1,0 +1,23 @@
+# Core app framework
+streamlit>=1.30.0
+
+# LangChain ecosystem
+langchain>=0.1.20
+langchain-core>=0.1.48
+langgraph>=0.0.28
+
+# Google Generative AI (Gemini)
+langchain-google-genai>=0.0.10
+google-generativeai>=0.4.1
+
+# PDF extraction
+PyMuPDF>=1.24.1
+
+# Data handling
+pandas>=2.2.2
+
+# Typing (for safety; Python 3.10+ has built-in)
+typing-extensions>=4.10.0
+
+# Optional: Environment variables (for secure API management)
+python-dotenv>=1.0.1
